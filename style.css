@@ -1,0 +1,47 @@
+/* Global Styles */
+body {
+    background-color: #f7fafc;
+  }
+  
+  /* Navbar Styles */
+  .badge {
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    font-size: 0.75rem;
+    background-color: #f56565;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Sidebar Styles */
+  .container {
+    display: flex;
+  }
+  
+  /* Task Controls */
+  .task-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-controls button {
+    margin-left: 8px;
+  }
+  
+  /* Progress Tracker */
+  .progress-bar {
+    height: 2px;
+    background-color: #e2e8f0;
+  }
+  
+  .progress-bar-fill {
+    height: 2px;
+    background-color: #48bb78;
+  }
+  
+  .progress-bar-blue {
+    background-color: #4299e1;
+  }
+  
